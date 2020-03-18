@@ -1,0 +1,9 @@
+    # ...
+    install_requires=[
+        # ...
+        'live-currency-converter',
+    ],
+    dependency_links=[
+        'git+https://github.com/sanjaysheel/currency-converter-using-python/live-currency-converter'
+    ],
+    # ...
