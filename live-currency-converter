@@ -1,0 +1,12 @@
+from currency_converter import CurrencyConverter
+
+c = CurrencyConverter()
+i1=input("enter the first country name of three char: ")
+i2=input("enter the second country name of three char: ")
+c=input("enter the money: ")
+inp1=i1.upper()
+inp2=i2.upper()
+crr=float(c)
+c = CurrencyConverter(decimal=True)
+d=c.convert(crr, inp1, inp2)
+print(d)
